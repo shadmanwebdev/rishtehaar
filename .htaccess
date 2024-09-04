@@ -1,0 +1,11 @@
+RewriteEngine On
+
+# Exclude specific page names from the slug rewriting
+RewriteRule ^(index.php|blog.php|services.php|contact-us.php|registration.php|login.php|bookmarks.php|confirmation.php|user-profile.php|terms-of-service.php|status.php|reset.php|privacy-policy.php|pricing.php|package.php|disclaimer.php|404.php|create-new-password.php)$ - [L]
+
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+# Rewrite slugs to single-post.php
+RewriteRule ^([a-zA-Z0-9\-]+)$ single-post.php?slug=$1 [QSA,L]

@@ -1,0 +1,116 @@
+#login-error {
+    width: 300px;
+    margin: 100px auto 30px auto;
+}
+#reset input.email.login-error[type=text],
+#reset input.password.login-error[type=password] {
+    background-color: var(--error-bg);
+    color: var(--error-color);
+    border: 1px solid var(--error-color);
+}
+#reset {
+    width: 410px;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 30px;
+    margin: 0px auto 100px auto;
+    padding: 50px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px #00000026;
+    border-radius: 12px;
+}
+#reset .form-heading h3 {
+    font-size: 28px;
+    font-weight: 800;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #1D1D1D;
+}
+#reset .form-subheading p {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: center;
+}
+#reset form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column nowrap;
+    row-gap: 15px;
+}
+.input-label-row div {
+    font-size: 17px;
+    color: #000000;
+}
+#reset form label {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 5px;
+}
+#reset form .input-group:nth-child(1)  {
+    margin-bottom: 5px;
+}
+#reset form .input-group:nth-child(2) {
+    margin-bottom: 0;
+}
+#reset input[type="text"],
+#reset input[type="number"],
+#reset input[type="date"],
+#reset input[type="password"] {
+    background-color: #fff;
+    border: 2px solid #ADADAD;
+}
+#reset input[type="submit"], 
+#reset span.send {
+    display: flex;
+    height: 50px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 14px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 16px;
+    height: 45px;
+    border-radius: 8px;
+    text-transform: capitalize;
+
+    font-weight: 600;
+    background: #FFB600;
+    color: #0E0E0E;
+    box-shadow: 0px 4px 4px 0px #00000040;
+}
+.input-label-row {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.input-label-row div:nth-child(1) {
+    margin-bottom: 10px;
+}
+#reset .input-group {
+    margin-bottom: 5px;
+}
+#not-a-member p {
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+a.not-member-register {
+    color: #000;
+    text-decoration: underline;
+}
+@media screen and (max-width: 414px) {
+    #login {
+        width: 85%;
+        padding: 40px;
+    }
+}

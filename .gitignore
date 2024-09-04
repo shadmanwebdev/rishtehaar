@@ -1,0 +1,5 @@
+# Ignore environment-specific config files
+config.php
+
+# Ignore directories
+/vendor/

@@ -1,0 +1,27 @@
+1. index.php
+-> proposals.php
+-> filters.php
+
+
+2. Submit `filter` form
+-> sends GET request to `index.php`
+    -> proposals.php
+        -> $user->showFilteredProposals();
+
+
+=========================================
+Modifications
+=========================================
+1. AJAX sends POST request
+2. Sent to `filtered-proposals.php`
+3. Display filtered results
+4. Results get inserted into `index.php`
+
+=========================================
+JS function
+=========================================
+1. Gets form values
+2. Adds classes for selected filter options
+3. Validates
+4. Sends ajax requests
+5. Inserts data

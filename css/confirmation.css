@@ -1,0 +1,55 @@
+#reset-success {
+    padding: 50px;
+    max-width: 438px;
+    position: static;
+    margin: 200px auto;
+    border-radius: 21px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 10px 0px #00000026;
+    text-align: center;
+}
+#reset-success .popup-title {  
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000;
+}
+#reset-success .popup-subtitle {
+    margin: 10px 0;
+}
+#reset-success form.verify-code input {
+    color: #ADADAD;
+    border: 2px solid #ADADAD;
+    padding: 10px 20px;
+    radius: 7px;
+}
+#reset-success input::-webkit-outer-spin-button,
+#reset-success input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+#reset-success input[type=number] {
+    -moz-appearance: textfield;
+}
+#reset-success form.verify-code .form-group {
+    display: flex;
+}
+#reset-success form.verify-code div.submit {
+    padding: 10px 20px;
+    border-radius: 7px;
+    background: #FFB600;
+    color: #0E0E0E;
+    width: 100%;
+    cursor: pointer;
+    transition: .4s;
+}
+#reset-success form.verify-code div.submit:hover {
+    background: #ffc73c;
+}
+#reset-success .icon {
+    width: 65px;
+    height: 65px;
+    margin: 0 auto 10px auto;
+}

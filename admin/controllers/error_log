@@ -1,0 +1,6 @@
+[17-Dec-2023 18:32:42 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function date_now() in /home/rishaght/public_html/Classes/PayfastPayment.php:57
+Stack trace:
+#0 /home/rishaght/public_html/admin/controllers/payment-handler.php(20): PayfastPayment->manual_payment_update('884', 'risht2023121716...')
+#1 {main}
+  thrown in /home/rishaght/public_html/Classes/PayfastPayment.php on line 57
+[17-Dec-2023 18:33:48 America/New_York] PHP Notice:  Undefined index: user in /home/rishaght/public_html/Classes/PayfastPayment.php on line 64
